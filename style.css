@@ -6,11 +6,55 @@ body{
   width: 100%;
   height: 100%; 
   display: grid;
-  grid-template: 1fr 1fr 1fr 1fr / 1fr 2fr 1fr; 
+  grid-template: 1fr 2fr 1fr 1fr / 1fr 2.5fr 1fr; 
 }
 
-.taskbar{ 
+.taskbarUI{ 
   grid-area: 2/2/3/3;
+  display: grid;
+  grid-template : 20% 80% / 1fr; 
+}
+.taskbar{
+  grid-area: 1/1/2/2;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+
+  width : 100%;
+}
+.taskbarElement{
+  flex: 1; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.15rem ;
+  border-radius: 2%;
+}
+.hoverElement:hover .iconTaskbar {
+  color: rgb(194, 53, 100);
+}
+
+.hoverElement:hover .elementTitle {
+  color: rgb(102, 50, 56);
+}
+
+.hoverElement:hover {
+  background-color: rgb(255,247,250);
+  border-bottom: 5px solid rgb(251,220,230);
+}
+.highlightBorder{
+  border-bottom: 5px solid rgb(194, 53, 100);
+}
+.iconTaskbar{
+  padding-right: 5px;
+  color: rgb(246,169,194);
+}
+.elementTitle{
+  color: rgb(199,72,122);
+}
+.renderElementContent{
+  grid-area: 2/1/2/2;
+  white-space: wrap;
 }
 .elementContent{
   display : none; 
