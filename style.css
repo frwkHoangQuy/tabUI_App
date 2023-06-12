@@ -1,0 +1,19 @@
+/* html{ 
+  width: 100%;
+  height: 100%; 
+}
+body{
+  width: 100%;
+  height: 100%; 
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr / 1fr 2fr 1fr; 
+}
+
+.taskbar{ 
+  grid-area: 2/2/3/3;
+  display: flex;
+  flex-direction: row;
+} */
+.elementContent{
+  display : none; 
+}
