@@ -41,6 +41,7 @@ body{
 .hoverElement:hover {
   background-color: rgb(255,247,250);
   border-bottom: 5px solid rgb(251,220,230);
+  cursor: pointer;
 }
 .highlightBorder{
   border-bottom: 5px solid rgb(194, 53, 100);
