@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "title": "HTML",
+      "icon": "iconTaskbar fa-brands fa-html5",
+      "content": "HTML is a markup language used for building and structuring web pages. It uses tags to mark and define elements on a web page, such as text, images, links, tables, and more. HTML provides the basic structure for web pages, allowing web browsers to understand and display the content accurately"
+    },
+    {
+      "title": "CSS",
+      "icon": "iconTaskbar fa-brands fa-css3-alt",
+      "content": "CSS is a language used for styling and formatting the presentation of HTML-marked elements. It allows web developers to control the layout, appearance, and design of web pages, including colors, fonts, spacing, and positioning. By separating the style from the structure, CSS enables the creation of visually appealing and consistent web designs."
+    },
+    {
+      "title": "Javascript",
+      "icon": "iconTaskbar fa-brands fa-js",
+      "content": "JavaScript is a programming language that adds interactivity and dynamic behavior to web pages. It is widely used for creating interactive features, validating form data, manipulating content on the page, and handling user-triggered events. JavaScript is supported by all modern web browsers and enhances the functionality of web applications, making them more engaging and responsive."
+    },
+    {
+      "title": "Node.js",
+      "icon": "iconTaskbar fa-brands fa-node",
+      "content": "Node.js is a runtime environment that allows developers to execute JavaScript on the server-side. It utilizes the V8 JavaScript engine developed by Google, enabling server-side application development. Node.js follows an event-driven, non-blocking I/O model, making it efficient and scalable. It is commonly used for building real-time applications, APIs, and server-side web applications. Node.js has a vast ecosystem of libraries and modules available through npm (Node Package Manager), simplifying the development process."
+    }
+  ]
+}
