@@ -1,6 +1,6 @@
 document.querySelectorAll('div.taskbarElement').forEach(element => {
   element.addEventListener('click', (e) => {
-    // element.style.borderColor = "rgb(194, 53, 100)";
+    //element.style.borderColor = "rgb(194, 53, 100)";
     document.querySelectorAll('div.taskbarElement').forEach(element => {
       element.classList.remove("highlightBorder");
       element.classList.add('hoverElement');
